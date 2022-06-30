@@ -167,7 +167,8 @@ function App() {
 
       <footer className="footer">
         <p>
-          Made by <a target="_blank" rel="noreferrer" href="https://kylebrandontan.com/">@kylebrandontan</a>
+          {/* Made by <a target="_blank" rel="noreferrer" href="https://kylebrandontan.com/">@kylebrandontan</a> */}
+          Made by KT
         </p>
       </footer>
     </div>
