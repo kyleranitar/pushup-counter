@@ -21,7 +21,7 @@ function App() {
     submitScore,
     handleChange,
     resetGame,
-  } = usePushupCounter(1)
+  } = usePushupCounter()
 
   return (
     <div className="main-text">
