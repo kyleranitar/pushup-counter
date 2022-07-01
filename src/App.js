@@ -17,14 +17,15 @@ import finishSound from "./finish-sound.mp3";
 // 9. Add ability to reset scores. - done
 // 6. local storage - done
 // 12. add 'ding' when done - done
+// 14. deploy to github! - done
+// add another state before the start time and the let the time running start. - done
 
 // 10. Add date and time to high score.
 // 5. mobile responsiveness - semi done
 // 13. clean up this filthy code man
-// 14. deploy to github!
+// 16. add database so people can access their scores.
 
 
-// add another state before the start time and the let the time running start.
 function App() {
   const STARTING_TIME = 20;
 
@@ -89,6 +90,7 @@ function App() {
     setTimeRemaining(STARTING_TIME);
     setCountdown(3);
     countdownSong();
+    setSubmittedScore(false);
   }
   
   // Starting and ending the game
